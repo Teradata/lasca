@@ -46,7 +46,7 @@ Set the language collation table. If not set lasca will default to the first lan
 
 * language (string or object) – collation table key or custom collation table definition
 ```javascript
-lasca.setLanguage(‘uca_devanagari’);
+lasca.setLanguage('uca_devanagari');
 ```
 
 ### lasca.setNonCollValCompare(func)
@@ -64,7 +64,7 @@ Sort an array of values or an array of objects using a property key of the objec
 * key (optional, string) – a property key for an object
 
 ```javascript
-lasca.sort([‘foo’, ‘bar’, ‘baz’]); // sort an array
+lasca.sort(['foo', 'bar', 'baz']); // sort an array
 lasca.sort([{prop1: 1, prop2: 'foo'}, {prop1: 2, prop2: 'bar'}, {prop1: 3, prop2: 'baz'}], 'prop2'); // sort an array of objects
 ```
 
@@ -75,9 +75,9 @@ Compare two strings.
 * b (string) – second string to compare
 
 ```javascript
-lasca.compare(‘foo’, ‘bar’); // returns -1
-lasca.compare(‘bar’ , ‘foo’); // returns 1
-lasca.compare(‘foo’ , ‘foo’); // returns 0
+lasca.compare('foo', 'bar'); // returns -1
+lasca.compare('bar' , 'foo'); // returns 1
+lasca.compare('foo' , 'foo'); // returns 0
 ```
 
 ### lasca.getLanguageKeys()
@@ -92,9 +92,9 @@ Collation table definitions are object literals with the properties below. These
 
 * key – A unique lookup key for the collation
 * collation – The encoded collation definition. Encodings are the hexadecimal values for the corresponding code point. If a character is comprised of 
-more than one code point a ‘+’ operator is used to signify that the code points should be considered a single character. This differs from the standard 
+more than one code point a '+' operator is used to signify that the code points should be considered a single character. This differs from the standard 
 JavaScript character definition, which is a single 16 bit code point.
-* compare – Sets the sorting type. ‘multi’ is for languages that can have more than one code point per character. ‘single’ is for languages that only have one 16 bit code point per character.
+* compare – Sets the sorting type. 'multi' is for languages that can have more than one code point per character. 'single' is for languages that only have one 16 bit code point per character.
 
 ### Examples
 

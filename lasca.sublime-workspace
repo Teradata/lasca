@@ -1,0 +1,848 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"la",
+				"languages"
+			],
+			[
+				"le",
+				"len"
+			],
+			[
+				"rege",
+				"regex"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ge",
+				"getMsgs"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"sta",
+				"startPolling"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"da",
+				"dataType"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/README.md",
+			"settings":
+			{
+				"buffer_size": 5540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 5540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSFTP:\n----\n\n  Thanks for installing Sublime SFTP! Below are some quick notes to get you\n  started with the plugin. Please see http://wbond.net/sublime_packages/sftp for\n  the full documentation.\n  \n  \n  There are two major modes of operation:\n  1. Mapping a local folder to a remote folder\n  2. Working off of a server\n  \n  \n  Mapping a Local Folder to a Remote Folder\n  ----\n  \n  To map a local folder to a remote folder, right-click on it in the side bar\n  and select the SFTP/SFTP > Map to Remote... You will enter your connection\n  parameters and a new file will be created named sftp-config.json.\n  \n  Once this file has been saved, all files in that folder and all subfolders\n  will have various operations available via the side bar context menu, editor\n  context menu and command palette.\n  \n  \n  Working off of a Server\n  ----\n  \n  To work off of a server, use the File menu and select SFTP/FTP > Setup Server...\n  You will enter your connection parameters and options then save the file with\n  the name you want to give the connection.\n  \n  Once the server config is saved, you will be automatically connected to the\n  server and you can browse and perform actions via the quick panel.\n  \n  Unfortunely due to limitations of the Sublime Text 2 API, it is not possible\n  to present the remote filesystem in the side bar. There are, however, key\n  bindings for connecting to servers to help reduce the amount of time remote\n  file operations take.\n  \n  \n  Support\n  ----\n  \n  To learn more about the features and settings, please visit\n  http://wbond.net/sublime_packages/sftp.\n  \n  If you are having trouble, please contact me at support@wbond.net. The Support\n  page, http://wbond.net/sublime_packages/sftp/support, includes instructions\n  for capturing a debug log that will be useful if you believe you are\n  experiencing a bug.\n  \n",
+			"settings":
+			{
+				"buffer_size": 1895,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/test/node.js",
+			"settings":
+			{
+				"buffer_size": 158,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/lasca.js",
+			"settings":
+			{
+				"buffer_size": 119647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/test/test.js",
+			"settings":
+			{
+				"buffer_size": 2407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/test/index.html",
+			"settings":
+			{
+				"buffer_size": 807,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/test/jquery.js",
+			"settings":
+			{
+				"buffer_size": 94839,
+				"line_ending": "Windows",
+				"name": "/*! jQuery v1.7.2 jquery.com | jquery.org/license"
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/test/amd.html",
+			"settings":
+			{
+				"buffer_size": 823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/test/require.js",
+			"settings":
+			{
+				"buffer_size": 13698,
+				"line_ending": "Windows",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/test/qunit.js",
+			"settings":
+			{
+				"buffer_size": 45522,
+				"line_ending": "Windows",
+				"name": "/**"
+			}
+		},
+		{
+			"file": "/C/viewpoint/OpenSource/lasca/test/underscore.js",
+			"settings":
+			{
+				"buffer_size": 12820,
+				"line_ending": "Windows",
+				"name": "// Underscore.js 1.3.3"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"packs",
+				"Package Control: Discover Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"con",
+				"Set Syntax: R Console"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/viewpoint/OpenSource/lasca/test/main.js",
+		"/C/viewpoint/OpenSource/lasca/test/amd.html",
+		"/C/viewpoint/OpenSource/lasca/lasca.nouca.min.js",
+		"/C/viewpoint/OpenSource/lasca/test/lasca.min.js",
+		"/C/viewpoint/OpenSource/lasca/index.html",
+		"/C/viewpoint/OpenSource/lasca/test/index.html",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/docroot/html/themes/teradata/templates/top_js.jsp",
+		"/C/viewpoint/OpenSource/lasca/js/uca_lycian.js",
+		"/C/viewpoint/OpenSource/lasca/js/lasca.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_yi.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_variable.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_vai.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_unsupported.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_ugaritic.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_tifinagh.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_tibetan.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_thai.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_thaana.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_telugu.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_tamil.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_tai_le.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_tagbanwa.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_tagalog.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_syriac.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_syloti_nagri.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_sundanese.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_sinhala.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_shavian.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_saurashtra.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_samaritan.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_runic.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_rejang.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_phoenician.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_phags-pa.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_osmanya.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_oriya.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_old_persian.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_old_italic.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_ogham.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_null.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_nko.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_new_tai_lue.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_myanmar.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_mongolian.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_mandaic.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_malayalam.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_lydian.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_lisu.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_linear_b.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_limbu.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_lepcha.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_latin.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_lao.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_khmer.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_kharoshthi.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_katakana-hiragana.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_kannada.js",
+		"/C/viewpoint/OpenSource/lasca/js/uca_kaithi.js",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/tmp/html/themes/teradata/templates/top_js.jsp",
+		"/C/Users/JS186040/Desktop/TjsDebug.js",
+		"/C/Users/JS186040/Desktop/jquery-ui.js",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/tmp/html/js/json.js",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/conf/server.xml",
+		"/C/viewpoint/portal-builder/14.00.00.00.Dev/conf/server.xml",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/conf/viewpoint.sublime-project",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/conf/svn-opensource.sublime-project",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/docroot/html/themes/teradata/js/viewpoint-i18n.js",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/webapps/CommonsWeb/js/TjsValidator.js",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/CommonsWeb/src/js/TjsValidator.js",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/webapps/ROOT/html/themes/teradata/js/viewpoint-i18n.js",
+		"/C/viewpoint/14.01-Dev/Portal/CommonsWeb/src/js/banner.js",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/webapps/ROOT/html/themes/teradata/templates/top_js.jsp",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/tmp/html/common/themes/top_js.jsp",
+		"/C/Users/JS186040/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/CommonsWeb/src/js/banner.js",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/Tomcat/dist/conf/server.T.xml",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/Tomcat/dist/conf/server.xml",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/docroot/html/themes/teradata/templates/css.jsp",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/webapps/ROOT/html/common/themes/top_js.jsp",
+		"/C/viewpoint/14.01-Dev-jQuery-UI/Portlets/TasmConfigurator/dist/TasmConfiguratorPortlet/js/ruleDetails.js",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/webapps/CommonsWeb/js/banner.js",
+		"/C/viewpoint/portal-builder/14.01.00.00.JQ/conf/catalina.properties"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\viewpoint\\14.01-Dev-jQuery-UI",
+			"C:\\viewpoint\\portal-builder\\14.01.00.00.JQ",
+			"C:\\viewpoint\\14.01-Dev-jQuery-UI",
+			"C:\\viewpoint\\14.01-Dev-jQuery-UI*.js*",
+			"C:\\viewpoint\\14.01-Dev-jQuery-UI\\*.js*",
+			"C:\\viewpoint\\14.01-Dev-jQuery-UI"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console",
+			"TODO",
+			"findMultiPointLetters",
+			"findMultiPointLetters ",
+			"multil",
+			"sortMultiCodePoint",
+			"toJSONString",
+			"vp-de",
+			"compare : 'm",
+			"compare",
+			"conf",
+			"lasca.conf",
+			"jQuery.i18n.regex().test",
+			"jQuery.i18n.regex.test",
+			"TD.i18nRegex",
+			"unicodeAlphaNumericSpace",
+			"regex",
+			"TD.i18nRegex",
+			"regex",
+			"vp",
+			"renderBannerToggleConnector",
+			"jquery-ui",
+			"console",
+			"vp-dev",
+			"jQuery14",
+			"jQuery",
+			"vp-de"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"jQuery.i18n.regex.test",
+			"jQuery.i18n.regex().test",
+			"jQuery.i18n.regex",
+			"$",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/viewpoint/OpenSource/lasca/README.md",
+					"settings":
+					{
+						"buffer_size": 5540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2257,
+								2257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 5540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 1895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								879,
+								879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/viewpoint/OpenSource/lasca/test/node.js",
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/viewpoint/OpenSource/lasca/lasca.js",
+					"settings":
+					{
+						"buffer_size": 119647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117852,
+								117852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4889.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/viewpoint/OpenSource/lasca/test/test.js",
+					"settings":
+					{
+						"buffer_size": 2407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1217,
+								1217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/viewpoint/OpenSource/lasca/test/index.html",
+					"settings":
+					{
+						"buffer_size": 807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								807,
+								807
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/viewpoint/OpenSource/lasca/test/jquery.js",
+					"settings":
+					{
+						"buffer_size": 94839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94839,
+								94839
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*! jQuery v1.7.2 jquery.com | jquery.org/license",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 121107.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/viewpoint/OpenSource/lasca/test/amd.html",
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								742,
+								574
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/viewpoint/OpenSource/lasca/test/require.js",
+					"settings":
+					{
+						"buffer_size": 13698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13698,
+								13698
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/viewpoint/OpenSource/lasca/test/qunit.js",
+					"settings":
+					{
+						"buffer_size": 45522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45522,
+								45522
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/**",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 25503.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/viewpoint/OpenSource/lasca/test/underscore.js",
+					"settings":
+					{
+						"buffer_size": 12820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12820,
+								12820
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// Underscore.js 1.3.3",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 183.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"-uiteradatatop_js.jsp",
+				"14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/docroot/html/themes/teradata/templates/top_js.jsp"
+			],
+			[
+				".jqconfserver.xml",
+				"portal-builder/14.01.00.00.JQ/conf/server.xml"
+			],
+			[
+				"-uiconfserver.xml",
+				"portal-builder/14.00.00.00.Dev/conf/server.xml"
+			],
+			[
+				"svn-op",
+				"portal-builder/14.01.00.00.JQ/conf/svn-opensource.sublime-project"
+			],
+			[
+				"-uiviewpoint-i18n.js",
+				"14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/docroot/html/themes/teradata/js/viewpoint-i18n.js"
+			],
+			[
+				"tjsvalidator.js",
+				"portal-builder/14.01.00.00.JQ/webapps/CommonsWeb/js/TjsValidator.js"
+			],
+			[
+				"",
+				"14.01-Dev-jQuery-UI/Portal/CommonsWeb/src/js/TjsValidator.js"
+			],
+			[
+				".jqviewpoint-i18n.js",
+				"portal-builder/14.01.00.00.JQ/webapps/ROOT/html/themes/teradata/js/viewpoint-i18n.js"
+			],
+			[
+				"-uitjsva",
+				"14.01-Dev-jQuery-UI/Portal/CommonsWeb/src/js/TjsValidator.js"
+			],
+			[
+				".jqteradatatop_js.jsp",
+				"portal-builder/14.01.00.00.JQ/webapps/ROOT/html/themes/teradata/templates/top_js.jsp"
+			],
+			[
+				"-uitop_js.jsp",
+				"14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/tmp/html/common/themes/top_js.jsp"
+			],
+			[
+				"banner",
+				"14.01-Dev/Portal/CommonsWeb/src/js/banner.js"
+			],
+			[
+				"banner.js",
+				"14.01-Dev-jQuery-UI/Portal/CommonsWeb/src/js/banner.js"
+			],
+			[
+				".jqserver.xml",
+				"14.01-Dev-jQuery-UI/Portal/Tomcat/dist/conf/server.xml"
+			],
+			[
+				"-uicss.jsp",
+				"14.01-Dev-jQuery-UI/Portal/TDLiferayExtensions/ext-web/docroot/html/themes/teradata/templates/css.jsp"
+			],
+			[
+				"jqteradatatop_js.jsp",
+				"portal-builder/14.01.00.00.JQ/webapps/ROOT/html/themes/teradata/templates/top_js.jsp"
+			],
+			[
+				"top_js.jsp",
+				"portal-builder/14.01.00.00.JQ/webapps/ROOT/html/common/themes/top_js.jsp"
+			],
+			[
+				"conf/server.xml",
+				"portal-builder/14.01.00.00.JQ/conf/server.xml"
+			],
+			[
+				"sever.xml",
+				"14.01-Dev-jQuery-UI/Portal/Tomcat/dist/conf/server.xml"
+			],
+			[
+				"portal-builderbanner.js",
+				"portal-builder/14.01.00.00.JQ/webapps/CommonsWeb/js/banner.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Windows/System32/emem.sublime-project"
+			]
+		],
+		"width": 809.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true
+}
