@@ -9,7 +9,6 @@
      |   |       
  |---|   |---|   POWER DOWN. BEEP BOOP.
  |           |
-/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 ````
 
 What is lasca good for? Lasca will not solve all your problems. However, lasca is very logical and despises disorder. Lasca solves the following issues.
