@@ -75,8 +75,8 @@ Compare two strings.
 
 ```javascript
 lasca.compare('foo', 'bar'); // returns -1
-lasca.compare('bar' , 'foo'); // returns 1
-lasca.compare('foo' , 'foo'); // returns 0
+lasca.compare('bar', 'foo'); // returns 1
+lasca.compare('foo', 'foo'); // returns 0
 ```
 
 ### lasca.getLanguageKeys()
