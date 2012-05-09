@@ -24,7 +24,7 @@ Development Status
 ------------------
 The current version of lasca should be considered a beta release. Lasca is in need of testing by developers who fluently read and write other languages than English - 
 unfortunately the primary author of Lasca only speaks english, JavaScript, and conversational Klingon. Please fork and fix Lasca as needed. Please file issues and take 
-responsibility for other issues. Lasca loves self improvement and will be eternally grateful for you help. 
+responsibility for other issues. Lasca loves self improvement and will be eternally grateful for your help. 
 
 Features
 --------
@@ -34,7 +34,6 @@ Features
 * Define custom functions for sorting characters not in a collation table
 * Runs in the browser or Node.js
 * AMD compliant and exportable – attempts to use define() or module.exports (node.js); if those efforts fail then lasca attaches to global root
-* Can run as as web worker
 * Useful for automated internationalized testing in browsers
 * Available without UCA collation definitions (lasca.nouca.min.js 3.33KB as opposed to 105KB for lasca.min.js)
 
