@@ -93,6 +93,7 @@ Collation table definitions are object literals with the properties below. These
 more than one code point a '+' operator is used to signify that the code points should be considered a single character. This differs from the standard 
 JavaScript character definition, which is a single 16 bit code point.
 * compare – Sets the sorting type. 'multi' is for languages that can have more than one code point per character. 'single' is for languages that only have one 16 bit code point per character.
+* More information on collation tables can be found at http://www.collation-charts.org/
 
 ### Examples
 
