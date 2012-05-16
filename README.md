@@ -106,3 +106,15 @@ JavaScript character definition, which is a single 16 bit code point.
 // multiple code point character language
 { key : 'uca_balinese', collation : '1B051B05+1B351B061B071B07+1B351B081B091B09+1B351B0A1B0B1B0B+1B351B0C1B0D1B0D+1B351B0E1B0F1B101B111B11+1B351B121B131B451B461B141B151B161B171B181B191B1A1B1B1B1C1B1D1B1E1B1F1B201B211B221B471B231B241B251B261B271B481B281B291B2A1B2B1B2C1B2D1B2E1B2F1B491B301B311B321B4A1B4B1B331B351B361B371B381B391B3A1B3A+1B351B3B1B3C1B3C+1B351B3D1B3E1B3F1B3E+1B351B401B3F+1B351B411B421B42+1B351B431B44', compare : 'multi' };
 ```
+
+License
+-------
+Copyright © 2011-2012 by Teradata Corporation.
+
+Issued under the MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
