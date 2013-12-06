@@ -328,7 +328,7 @@
 
     // set the language for sorts and compares
     lasca.setLanguage = function (language) {
-        var that = this, len = languages.length, i = 0, match = false;
+        var that = this, i = 0, match = false;
         var createTable = function () {                                    
             buildTable(that.language.collation); // build collation table first 
             that.language.compiled = true;           
@@ -346,10 +346,10 @@
                 throw 'Lasca says, "You must define a compare type."'; 
                 
             languages.push(language);
-            that.language = languages[len - 1];
+            that.language = languages[languages.length - 1];
             createTable();                               
         } else {
-            for (i; i<len; i++) {            
+            for (i; i<languages.length; i++) {            
                 if (languages[i].key === language) {
                    that.language = languages[i]; 
                    if (!that.language.compiled)
