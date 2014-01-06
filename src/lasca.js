@@ -207,21 +207,13 @@
                 if (aIndex > bIndex) return 1;
                 if (aIndex < bIndex) return -1;                                 
             } else {
-                if (customCompare === -1) {
-                    if (typeof lasca.language.compareNonCollVal === 'function')
-                        customCompare = true;
-                    else 
-                        customCompare = false
-                }
-                
-                if (customCompare)
-                    return lasca.language.compareNonCollVal(aArray[i], bArray[i]);                   
-                else                
-                    return ((aArray[i].charCodeAt(0) > bArray[i].charCodeAt(0)) ? 1 : -1);   
-            }                         
+                var compareNonCollResult = compareNonColl(aArray[i], bArray[i]);
+                if (compareNonCollResult !== 0)
+                    return compareNonCollResult;            }                         
         }
         
-        return ((a.length > b.length) ? -1 : 1); // one string was a substring of the other; the shorter string comes first                                        
+        // one string was a substring of the other; the shorter string comes first                                        
+        return compareLength(a.length, b.length);
     };
     
     // mulit code point languages comparator
@@ -294,18 +286,9 @@
                     if (aIndex > bIndex) return 1;
                     if (aIndex < bIndex) return -1;                  
                 } else {
-                    if (customCompare === -1) {
-                        if (typeof lasca.language.compareNonCollVal === 'function')
-                            customCompare = true;
-                        else 
-                            customCompare = false
-                    }
-                    
-                    if (customCompare)
-                        return lasca.language.compareNonCollVal(aArray[i], bArray[i]);                   
-                    else                
-                        return ((aArray[i].charCodeAt(0) > bArray[i].charCodeAt(0)) ? 1 : -1);  
-                }
+                    var compareNonCollResult = compareNonColl(aArray[i], bArray[i]);
+                    if (compareNonCollResult !== 0)
+                        return compareNonCollResult;                }
                 
                 // TODO: skipping ahead might be necessary
                 if (aHashPoint !== -1 || bHashPoint !== -1) {
@@ -321,9 +304,46 @@
                 aHashPoint = -1;
                 bHashPoint = -1;                       
             
-                return ((aIndex.length > bIndex.length) ? -1 : 1); // one string was a substring of the other; the shorter string comes first                                    
+                // one string was a substring of the other; the shorter string comes first
+                return compareLength(aIndex.length, bIndex.length);
             }                
         }                 
+    };
+
+    compareNonColl = function(a, b) {
+        if (customCompare === -1) {
+            if (typeof lasca.language.compareNonCollVal === 'function')
+                customCompare = true;
+            else
+                customCompare = false;
+        }
+        
+        if (customCompare)
+            return lasca.language.compareNonCollVal(a, b);
+        else
+            return compareAscii(a, b);
+    };
+    
+    compareAscii = function(a, b) {
+        var aCode = a.charCodeAt(0),
+            bCode = b.charCodeAt(0),
+            codeDiff = aCode - bCode;
+        if (codeDiff === 0)
+            return 0;
+        else if (codeDiff > 0)
+            return 1;
+        else
+            return -1;
+    };
+    
+    compareLength = function(a, b) {
+        var lengthDiff = a - b;
+        if (lengthDiff === 0)
+            return 0;
+        else if (lengthDiff > 0)
+            return 1;
+        else
+            return -1;
     };
 
     // set the language for sorts and compares
