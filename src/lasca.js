@@ -310,7 +310,7 @@
         }                 
     };
 
-    compareNonColl = function(a, b) {
+    var compareNonColl = function(a, b) {
         if (customCompare === -1) {
             if (typeof lasca.language.compareNonCollVal === 'function')
                 customCompare = true;
@@ -324,7 +324,7 @@
             return compareAscii(a, b);
     };
     
-    compareAscii = function(a, b) {
+    var compareAscii = function(a, b) {
         var aCode = a.charCodeAt(0),
             bCode = b.charCodeAt(0),
             codeDiff = aCode - bCode;
@@ -336,7 +336,7 @@
             return -1;
     };
     
-    compareLength = function(a, b) {
+    var compareLength = function(a, b) {
         var lengthDiff = a - b;
         if (lengthDiff === 0)
             return 0;
